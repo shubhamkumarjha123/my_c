@@ -1,0 +1,35 @@
+/* Food Menu */
+#include <stdio.h>
+int main()
+{   
+   
+    printf("1.Pizza\n 2.Burger\n 3.Pasta\n 4.French Fries\n 5.Sandwich\n");
+    int pick=0;
+    scanf("%d",&pick);
+
+    switch (pick)
+    {
+    case 1 /* constant-expression */:
+       printf("Food item -Pizza\n");
+       printf("Price-Rs 239\n");
+        break;
+    case 2:
+       printf("Food item -Burger\n");
+       printf("Price-Rs 129\n");
+        break;
+    case 3:
+       printf("Food item -Pasta\n");
+       printf("Price-Rs 179\n");
+        break;
+    case 4:
+       printf("Food item -French Fries\n");
+       printf("Price-Rs 99\n");
+        break;
+    case 5:
+       printf("Food item -Sandwich\n");
+       printf("Price-Rs 149\n");
+        break;
+    default:printf("Please enter from choice between 1 to 5");
+        
+    }
+}
